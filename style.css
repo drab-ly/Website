@@ -41,6 +41,12 @@ nav ul {
   list-style: none;
 }
 
+/* --ToDo: Decide if i keep it */
+
+_::-webkit-full-page-media, _:future, :root nav ul li {
+  padding-right: 3em;
+}
+
 nav a {
   text-decoration: none;
   color: black;
