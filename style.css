@@ -29,6 +29,7 @@ nav {
 nav ul {
   height:100%;
   display:flex;
+  grid-gap:3em;
   gap:3em;
   margin-left:20%;
   align-items:center;
