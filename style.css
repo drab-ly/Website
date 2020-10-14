@@ -130,7 +130,7 @@ nav a:hover {
 .grid {
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   text-align: center;
   grid-column-gap: 3vw;
   grid-row-gap: 3vh;
@@ -143,6 +143,7 @@ nav a:hover {
   font-size: 3vw;
   text-transform: uppercase;
   color: white;
+  transition: color 0.3s ease-in-out;
 }
 
 .description {
@@ -154,12 +155,15 @@ nav a:hover {
 .grid-cells:hover {
   background: black;
   color: white;
+  transition: background 0.3s ease-in, color 0.3s ease-in-out;
 }
 
 .grid-cells:hover > .grid-cell-title {
   color: #da00ff;
+  transition: color 0.3s ease-in-out;
 }
 
 .grid-cells {
   padding: 3vh 3vw;
+  transition: background 0.3s ease-in, color 0.3s ease-in-out;
 }
