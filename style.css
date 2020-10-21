@@ -134,6 +134,7 @@ nav a:hover {
   text-align: center;
   grid-column-gap: 3vw;
   grid-row-gap: 3vh;
+  padding: 10vh;
 }
 
 
@@ -166,4 +167,33 @@ nav a:hover {
 .grid-cells {
   padding: 3vh 3vw;
   transition: background 0.3s ease-in, color 0.3s ease-in-out;
+}
+
+.text-and-image {
+  width: 100%;
+  min-height: 100vh;
+  background: #f1f2f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-and-image h1 {
+  color: black;
+  font-weight: 800;
+  font-size: 5vw;
+  color: #ef4d8c;
+
+}
+.text-and-image p {
+  padding-top: 3vh;
+}
+
+.footer {
+  width: 100%;
+  padding: 5vh 0;
+  background: black;
+  color: white;
+  text-align: center;
+
 }
